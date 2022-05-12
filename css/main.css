@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Akshar', sans-serif;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+nav {
+    height: 114px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.logo img {
+    width: 137px;
+    height: 30px;
+    margin-left: 40px;
+}
+.menu ul {
+    display: flex;
+    margin-right: 42px;
+}
+.menu ul li {
+    list-style: none;
+}
+.menu ul a {
+    text-decoration: none;
+    margin-left: 14px;
+    color: black;
+    font-weight: bold;
+}
+.hd-img {
+    height: 378px;
+    background-image: url("../img/Hero\ -\ Image\ 1.svg");
+    display: flex;
+    align-items: center;
+
+}
+.hd-img .box {
+    margin-left: 40px;
+}
+.hd-img .box h1 {
+    color: rgba(255, 255, 255, 0.974);
+    font-size: 36px;
+    padding-bottom: 3rem;
+}
+.hd-img .box a {
+    background: rgb(241, 49, 49);
+    padding: 0.8rem 2rem;
+    color: rgba(255, 255, 255, 0.893);
+    font-size: 26;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.wwa {
+    margin-top:20px;
+    height: 222px;
+    display: flex;
+    justify-content: center;
+}
+.box-wwa h1{
+    text-align: center;
+    font-size: 36px;
+    margin: 1.5rem 0rem;
+}
+.box-wwa p {
+    color: darkgrey;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.box-wwa .btn {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0rem 1rem 0;
+}
+.box-wwa a {
+    background: rgb(241, 49, 49);
+    padding: 0.6rem 1.8rem;
+    color: rgba(255, 255, 255, 0.893);
+    font-size: 24;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.ahiw .box1 h2 {
+    padding: 1rem 0rem;
+    font-size: 36px;
+    text-align: center;
+}
+.ahiw .box2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+}
+.ahiw .box3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+.ahiw .box2 .text{
+    padding: 2rem 2rem 0rem 0rem;
+}
+.ahiw .box2 .text h4, .ahiw .box3 .text h4 {
+    font-size: 24px;
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+}
+.ahiw .box2 .text p, .ahiw .box3 .text p {
+    font-size: 16px;
+    color: darkgray;
+    padding: 1rem 0rem 0rem 0rem;
+}
+.ahiw .box2 .text a, .ahiw .box3 .text a {
+    padding: .6rem 1.8rem ;
+    background: rgb(232, 42, 42);
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    color: #fff;
+}
+.ahiw .box2 .text .btn, .ahiw .box3 .text .btn {
+    margin: 2rem 0rem;
+}
+/* ----------------------------------------------- */
+.wsi h2 {
+    text-align: center;
+    padding: 1.5rem 0rem;
+    font-size: 36px;
+}
+.wsi .box-top, .wsi .box-bottom {
+    display: flex;
+    justify-content:center;
+    padding: 0rem 0rem 2rem 0rem;
+}
+.wsi .text {
+    text-align: center;
+}
+.wsi i {
+    color: red;
+    border: 1px solid gray;
+    border-radius: 100%;
+    padding: 0.5rem;
+    margin:  1rem 0rem;
+}
+.wsi .btn {
+    text-decoration: none;
+    padding: .8rem 1.6rem;
+    background: rgba(255, 0, 0, 0.76);
+    color: #fff;
+    border-radius: 30px;
+}
+.wsi h4 {
+    font-size: 24px;
+}
+.wsi p {
+    color: darkgray;
+    font-size: 16px;
+    margin: 1rem 0rem 2rem 0rem;
+}
+.wsi .box-l {
+    margin-right: 1.5rem;
+}
+.wsi .box-r {
+    margin-left: 1.5rem;
+}
+.wsi .box-bottom .box-l {
+    padding-right: .2rem;
+}
+.wsi .box-bottom .box-r {
+    padding-left: 2.5rem;
+}
+.wsi .box-bottom {
+    padding-left: 1rem;
+}
+.wsi .video .box {
+    padding: 1rem 2rem;
+}
+/* ----------------------------------------------- */
+.whd h2 {
+    font-size: 36px;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.whd .box {
+    display: flex;
+    justify-content: center;
+}
+.whd .box-t-l {
+    padding-right: 1rem;
+}
+.whd .box-t-r {
+    padding-left: 1rem;
+}
+.whd .box-b-c {
+    padding: 2rem 1.5rem;
+}
+/* ----------------------------------------- */
+.wwp .box {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+.wwp h2 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 1.5rem;
+}
+.wwp .box-l, .wwp .box-r {
+    width: 90%;
+}
+.wwp .box h4 {
+    font-size: 21px;
+    padding: 0.5rem 0rem;
+}
+.wwp .box p {
+    font-size: 16px;
+    color: darkgray;
+    padding-bottom: 3rem;
+}
+.wwp .box a {
+    text-decoration: none;
+    background: rgba(255, 0, 0, 0.775);
+    color: #fff;
+    padding: .8rem 1.6rem;
+    border-radius: 30px;
+}
+.wwp .box-r a {
+    position: relative;
+    bottom: .4rem
+    ;
+}
+.gs {
+    padding-top: 1rem;
+}
+.gs .container {
+    height: 258px;
+    background-image: url("../img/Call\ To\ Action\ 1.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gs h4 {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.gs .btn {
+    display: flex;
+    justify-content: center;
+}
+.gs a {
+    color: #fff;
+    text-decoration: none;
+    padding: .8rem 1.8rem;
+    background: rgba(255, 0, 0, 0.892);
+    border-radius: 30px;
+    font-size: 16px;
+    
+}
+footer .container {
+    height: 296px;
+    background: rgb(246, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    list-style: none;
+}
+footer p , footer .a a{
+    text-align: center;
+    color: darkgray;
+    font-size: 16px;
+    padding-bottom: 2rem;
+}
+footer .icon a {
+    font-size: 24px;
+    padding: .5rem;
+    color: #fff;
+    border-radius: 100%;
+    background: darkgrey;
+}
+footer li {
+    padding: 0rem .3rem;
+}
+footer .icon {
+    padding-bottom: 2rem;
+}
+footer .img img {
+    width: 40%;
+    height: auto;
+    align-items: center;
+}
+footer .img {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
